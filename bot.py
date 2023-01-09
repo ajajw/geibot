@@ -22,7 +22,7 @@ from telebot import TeleBot
 #### importe del toke ###
 from aiogram import Bot, Dispatcher, executor, types
 from bs4 import BeautifulSoup
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(5929981615:AAELjumCNMn2E-8-7lyz8WaG1eAH2CUMWQo
 
 
 
@@ -60,7 +60,7 @@ def unauthorized(message):
 
 @bot.message_handler(commands=['add'])
 def add_content(message):
-    if message.chat.id != 5713631008:  # Reemplaza ID_DUEÑO por el ID del dueño
+    if message.chat.id != 5019536742:  # Reemplaza ID_DUEÑO por el ID del dueño
         bot.send_message(message.chat.id, 'Lo siento, no tienes permiso para usar este comando.')
         return
     id_us = message.text.split
