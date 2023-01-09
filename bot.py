@@ -22,7 +22,8 @@ from telebot import TeleBot
 #### importe del toke ###
 from aiogram import Bot, Dispatcher, executor, types
 from bs4 import BeautifulSoup
-bot = telebot.TeleBot(5929981615:AAELjumCNMn2E-8-7lyz8WaG1eAH2CUMWQo
+TOKEN = '5929981615:AAELjumCNMn2E-8-7lyz8WaG1eAH2CUMWQo'
+bot = telebot.TeleBot(TOKEN)
 
 
 
